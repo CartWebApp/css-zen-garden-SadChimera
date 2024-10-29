@@ -1,4 +1,7 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+
+
+
 h1 {
     display:flex;
     background-color: black;
@@ -15,12 +18,13 @@ h2 {
     color:white;
     font-size:37px;
     justify-content:flex-end;
-    width:210vh;
+    width:150vh;
+    height:10vh;
     align-items:center;
     padding:25px;
 }
 
-body {
+body: nth-of-type {
     background-color:#40362D;
     color:rgb(255, 255, 255);
     padding:70px;
@@ -32,12 +36,16 @@ body {
 .preamble {
     display:flex;
     flex-direction:column;
-    font-size:17px;
+    font-size:20px;
     align-items:flex-end;
     justify-content:flex-end;
     padding:20px;
     flex-wrap:wrap;
+    border: 5px gold;
+    background-color:blue;
 }
+.preamble
+
 .explanation {
     display:flex;
     flex-direction:column;
@@ -70,9 +78,6 @@ body {
     padding:20px;
 }
 
-.img {
-    image: url("https://www.citypng.com/public/uploads/preview/pink-star-download-png-701751694532302rtnyawdolh.png")
-}
 
 section {
     color: rgb(255, 255, 255);
