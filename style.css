@@ -10,6 +10,8 @@ h1 {
     width:180vh;
     align-items: center;
     padding:25px;
+    position:relative;
+    bottom:150px;
 }
 h2 {
     display:flex;
@@ -20,9 +22,11 @@ h2 {
     justify-content:flex-end;
     width:180vh;
     height:10vh;
-    height: px;
-    align-self:center;
+    align-self:flex-end;
     padding:25px;
+    position:relative;
+    bottom:220px;
+    float:right;
 }
 
 body {
@@ -30,18 +34,16 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color:#40362D;
     color:rgb(255, 255, 255);
     padding:70px;
     max-width: 100%;
     height:auto;
-    background-image: linear-gradient(rgb(101, 57, 8), rgb(63, 36, 4));
+    background-image: linear-gradient(#462908, #291803);
     font-family:Georgia, 'Times New Roman', Times, serif;
     image: url("https://static.wixstatic.com/media/7b821f_84fd9f875fdb4577977781e2b2feb2fa~mv2.jpg/v1/fill/w_480,h_322,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7b821f_84fd9f875fdb4577977781e2b2feb2fa~mv2.jpg");
 }
 .page-wrapper {
-    image: url("https://static.wixstatic.com/media/7b821f_84fd9f875fdb4577977781e2b2feb2fa~mv2.jpg/v1/fill/w_480,h_322,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7b821f_84fd9f875fdb4577977781e2b2feb2fa~mv2.jpg")
-
+    background-image: 
 }
 
 .summary {
@@ -52,6 +54,7 @@ body {
     padding:20px;
     flex-wrap:wrap;
     float: right;
+    background-color: #000000;
 }
 
 .preamble {
@@ -61,14 +64,19 @@ body {
     height: px;
     padding:20px;
     flex-wrap:wrap;
-    border: 5px gold;
-    animation: firstbox 5s 2;
-    animation-direction: alternate;
+    background-color: #d1d19d;
+    position: relative;
+    left: 50px;
 }
-@keyframes firstbox {
-    0% {background: red; left: 0px; top: 0px}
-    25% {background: blue; left: 200px; top: 0px}
+.preamble p {
+    position: relative;
+    bottom: 120px;
 }
+.preamble h3 {
+    position: relative;
+    bottom: 120px;
+}
+
 
 .explanation {
     font-size:20px;
@@ -79,6 +87,10 @@ body {
     flex-wrap:wrap;
     float: right;
     right: 50px;
+    float:right;
+    background-color: #d1d19d;
+    position: relative;
+    right: 70px;
 }
 .participation {
     font-size:20px;
@@ -87,6 +99,11 @@ body {
     height: px;
     padding:20px;
     flex-wrap:wrap;
+    background-color: #d1d19d;
+    position:relative;
+    top: 60px;
+    position: relative;
+    left: 50px;
 }
 .benefits {
     font-size:20px;
@@ -95,6 +112,11 @@ body {
     height: px;
     padding:20px;
     flex-wrap:wrap;
+    float:right;
+    right: px;
+    background-color: #d1d19d;
+    position: relative;
+    right: 70px;
 }
 
 .requirements {
@@ -105,9 +127,33 @@ body {
     padding:20px;
     flex-wrap:wrap;
     color:purple;
+    background-color: #d1d19d;
+    position:relative;
+    top: 120px;
+    position: relative;
+    left: 50px;
 }
-.contentinfo {
-    color:red;
+
+footer {
+    display:flex;
+    font-size:80px;
+    align-self:flex-end;
+    justify-content:space-around;
+    position:relative;
+    top:798px;
+}
+
+.sidebar {
+    font-size:20px;
+    align-self:center;
+    width: 500px;
+    height: px;
+    padding:20px;
+    flex-wrap:wrap;
+    float: right;
+    right: 50px;
+    float:right;
+    background-color: black;
 }
 
 .extra1 {
