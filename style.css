@@ -23,7 +23,7 @@ h2 {
     align-self:flex-end;
     padding:25px;
     position:relative;
-    bottom:220px;
+    bottom:250px;
     float:right;
 }
 
@@ -36,7 +36,11 @@ body {
     padding:70px;
     max-width: 100%;
     height:auto;
-    background: linear-gradient(#461a08, #290403);
+    background-color: rgb(54, 7, 7);
+    background: url("https://th.bing.com/th/id/R.72a3c644c293edccd6ae63a5d304136f?rik=DaALoVIgNFzBOg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f594196fc5eb5d45f10e35b36.png&ehk=UI6zxr1P36ZsCAL19pgEtKj9clTSePyt1YyC%2fIC%2be98%3d&risl=&pid=ImgRaw&r=0") left bottom no-repeat, url("https://t4.ftcdn.net/jpg/02/68/92/33/360_F_268923349_ktzKCaec1PFU8tSNJXjHs16sNJmZ5dwf.jpg");
+    background-size: 650px;
+    background-position-y: 2628px;
+    background-position-x: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -212,7 +216,6 @@ footer {
     justify-content:space-around;
     position:relative;
     top:770px;
-    background-color: black;
 }
 
 a:link {
