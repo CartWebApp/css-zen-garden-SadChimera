@@ -40,7 +40,7 @@ body {
     background: url("https://th.bing.com/th/id/R.72a3c644c293edccd6ae63a5d304136f?rik=DaALoVIgNFzBOg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f594196fc5eb5d45f10e35b36.png&ehk=UI6zxr1P36ZsCAL19pgEtKj9clTSePyt1YyC%2fIC%2be98%3d&risl=&pid=ImgRaw&r=0") left bottom no-repeat, url("https://t4.ftcdn.net/jpg/02/68/92/33/360_F_268923349_ktzKCaec1PFU8tSNJXjHs16sNJmZ5dwf.jpg");
     background-size: 650px;
     background-position-y: 2628px;
-    background-position-x: 50px;
+    background-position-x: 280px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -117,9 +117,9 @@ element {
     color:white;
     border-color:black;
     background-image: url("https://myfrenchcountryhomemagazine.com/wp-content/uploads/2021/05/elisabeth-vigee-le-brun.jpeg");
-    background-size: 620px;
-    background-repeat: no-repeat;
-    background-position: -33px;
+    background-size: 655px;
+    background-repeat: repeat;
+    background-position: -35px;
     transition: width 2s;
 }
 .explanation:hover {
